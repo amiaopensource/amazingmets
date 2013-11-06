@@ -18,11 +18,11 @@
                     <src:UTVIDEOSrc>
                         <src:id>sul</src:id>
                         <src:analog_digital_flag>analog</src:analog_digital_flag>
-                        <src:generation></src:generation>
-                        <src:carrier_number></src:carrier_number>
-                        <src:signal_format></src:signal_format>
-                        <src:aspect_ratio></src:aspect_ratio>
-                        <src:duration></src:duration>
+                        <src:generation>original</src:generation>
+                        <src:carrier_number>1</src:carrier_number>
+                        <src:signal_format>NTSC</src:signal_format>
+                        <src:aspect_ratio>4:3</src:aspect_ratio>
+                        <src:duration>01:02:16.837</src:duration>
                     </src:UTVIDEOSrc>                  
                 </mets:xmlData>
             </mets:mdWrap>
@@ -34,11 +34,11 @@
                 <mets:xmlData>
                     <premis:event>
                         <premis:eventIdentifier>
-                            <premis:eventIdentifierType></premis:eventIdentifierType>
-                            <premis:eventIdentifierValue></premis:eventIdentifierValue>
+                            <premis:eventIdentifierType>Event ID Type</premis:eventIdentifierType>
+                            <premis:eventIdentifierValue>Event_001</premis:eventIdentifierValue>
                         </premis:eventIdentifier>
-                        <premis:eventType></premis:eventType>
-                        <premis:eventDateTime></premis:eventDateTime>
+                        <premis:eventType>Digital Reformatting</premis:eventType>
+                        <premis:eventDateTime>2011-11-20</premis:eventDateTime>
                     </premis:event>                   
                 </mets:xmlData>
             </mets:mdWrap>
@@ -48,21 +48,21 @@
                 <mets:xmlData>
                     <revtmd:objects>
                         <revtmd:object>
-                            <revtmd:filename></revtmd:filename>
+                            <revtmd:filename>tx467yq7855_pm.mov</revtmd:filename>
                             <revtmd:organization>
                                 <revtmd:organization_main>
-                                    <revtmd:name></revtmd:name>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:role_note></revtmd:role_note>
+                                    <revtmd:name>Stanford University Libraries</revtmd:name>
+                                    <revtmd:role>Preservation Reformatter</revtmd:role>
+                                    <revtmd:role_note>Digitized at the Stanford Media Preservation Lab http://lib.stanford.edu/stanford-media-preservation-lab/</revtmd:role_note>
                                 </revtmd:organization_main>
                             </revtmd:organization>                            
-                            <revtmd:mimetype></revtmd:mimetype>                        
+                            <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>                        
                             <revtmd:captureHistory>
-                                <revtmd:digitizationDate></revtmd:digitizationDate>
-                                <revtmd:digitizationEngineer></revtmd:digitizationEngineer>
-                                <revtmd:preparationActions></revtmd:preparationActions>
+                                <revtmd:digitizationDate>2012-11-20</revtmd:digitizationDate>
+                                <revtmd:digitizationEngineer>Michael Angeletti</revtmd:digitizationEngineer>
+                                <revtmd:preparationActions>Tape exercise</revtmd:preparationActions>
+                                <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
                                 <!-- Use preparationActions to document any actions taken on the source material, such as cleaning, baking, rehousing. Field is repeatable. -->
-                                <revtmd:preparationActions></revtmd:preparationActions>
                                 <revtmd:codingProcessHistory>
                                     <revtmd:role></revtmd:role>
                                     <revtmd:description></revtmd:description>
