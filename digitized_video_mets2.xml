@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:premis="info:lc/xmlns/premis-v2"
+    xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
+    xmlns:src="http://www.lib.utexas.edu/schema/"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis.xsd 
+    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd 
+    http://www.lib.utexas.edu/schema/ http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd">
+    <mets:amdSec>
+        <mets:techMD ID="techmd1">
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="MEDIAINFO">            
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:sourceMD ID="src1">
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="UTVIDEOSrc">
+                <mets:xmlData>
+                    <src:UTVIDEOSrc>
+                        <src:id></src:id>
+                        <src:analog_digital_flag></src:analog_digital_flag>
+                        <src:generation></src:generation>
+                        <src:carrier_number></src:carrier_number>
+                        <src:signal_format></src:signal_format>
+                        <src:aspect_ratio></src:aspect_ratio>
+                        <src:duration></src:duration>
+                    </src:UTVIDEOSrc>                  
+                </mets:xmlData>
+            </mets:mdWrap>
+            
+        </mets:sourceMD> 
+        <mets:digiprovMD ID="digiprov1">
+            <mets:mdWrap MDTYPE="PREMIS:EVENT">
+                <!-- Use for digitization event -->
+                <mets:xmlData>
+                    <premis:event>
+                        <premis:eventIdentifier>
+                            <premis:eventIdentifierType></premis:eventIdentifierType>
+                            <premis:eventIdentifierValue></premis:eventIdentifierValue>
+                        </premis:eventIdentifier>
+                        <premis:eventType></premis:eventType>
+                        <premis:eventDateTime></premis:eventDateTime>
+                    </premis:event>                   
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+        <mets:digiprovMD ID="digiprov2">
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="REVTMD">
+                <mets:xmlData>
+                    <revtmd:objects>
+                        <revtmd:object>
+                            <revtmd:filename></revtmd:filename>
+                            <revtmd:organization>
+                                <revtmd:organization_main>
+                                    <revtmd:name></revtmd:name>
+                                    <revtmd:role></revtmd:role>
+                                    <revtmd:role_note></revtmd:role_note>
+                                </revtmd:organization_main>
+                            </revtmd:organization>                            
+                            <revtmd:mimetype></revtmd:mimetype>                        
+                            <revtmd:captureHistory>
+                                <revtmd:digitizationDate></revtmd:digitizationDate>
+                                <revtmd:digitizationEngineer></revtmd:digitizationEngineer>
+                                <revtmd:preparationActions></revtmd:preparationActions>
+                                <!-- Use preparationActions to document any actions taken on the source material, such as cleaning, baking, rehousing. Field is repeatable. -->
+                                <revtmd:preparationActions></revtmd:preparationActions>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role></revtmd:role>
+                                    <revtmd:description></revtmd:description>
+                                    <revtmd:manufacturer></revtmd:manufacturer>
+                                    <revtmd:modelName></revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:version></revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings>                          
+                                </revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role></revtmd:role>
+                                    <revtmd:description></revtmd:description>
+                                    <revtmd:manufacturer></revtmd:manufacturer>
+                                    <revtmd:modelName></revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:version></revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings>                          
+                                </revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role></revtmd:role>
+                                    <revtmd:description></revtmd:description>
+                                    <revtmd:manufacturer></revtmd:manufacturer>
+                                    <revtmd:modelName></revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:version></revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings>                          
+                                </revtmd:codingProcessHistory>
+                            </revtmd:captureHistory>
+                        </revtmd:object>                     
+                    </revtmd:objects>                  
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp>
+            <mets:fileGrp>
+                <mets:file ID=""></mets:file>
+            </mets:fileGrp>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap>
+        <mets:div>
+            <mets:fptr>
+                <mets:par>
+                    <mets:area FILEID=""/>
+                </mets:par>
+            </mets:fptr>
+            <mets:div></mets:div>
+        </mets:div>
+    </mets:structMap>
+    <mets:structLink>
+        <mets:smLink xmlns:ns5="http://www.w3.org/1999/xlink" ns5:to="" xmlns:ns6="http://www.w3.org/1999/xlink" ns6:from=""/>
+    </mets:structLink>
+</mets:mets>
