@@ -16,7 +16,11 @@
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="UTVIDEOSrc">
                 <mets:xmlData>
                     <src:UTVIDEOSrc>
+<<<<<<< HEAD
                         <src:id>sul:tx467yq7855</src:id>
+=======
+                        <src:id>sul</src:id>
+>>>>>>> f1062d527e142a848133146d5171cb5b93636ff1
                         <src:analog_digital_flag>analog</src:analog_digital_flag>
                         <src:generation>original</src:generation>
                         <src:carrier_number>1</src:carrier_number>
@@ -34,11 +38,16 @@
                 <mets:xmlData>
                     <premis:event>
                         <premis:eventIdentifier>
-                            <premis:eventIdentifierType></premis:eventIdentifierType>
-                            <premis:eventIdentifierValue></premis:eventIdentifierValue>
+                            <premis:eventIdentifierType>Event ID Type</premis:eventIdentifierType>
+                            <premis:eventIdentifierValue>Event_001</premis:eventIdentifierValue>
                         </premis:eventIdentifier>
+<<<<<<< HEAD
                         <premis:eventType></premis:eventType>
                         <premis:eventDateTime>2012-11-20</premis:eventDateTime>
+=======
+                        <premis:eventType>Digital Reformatting</premis:eventType>
+                        <premis:eventDateTime>2011-11-20</premis:eventDateTime>
+>>>>>>> f1062d527e142a848133146d5171cb5b93636ff1
                     </premis:event>                   
                 </mets:xmlData>
             </mets:mdWrap>
@@ -48,50 +57,78 @@
                 <mets:xmlData>
                     <revtmd:objects>
                         <revtmd:object>
-                            <revtmd:filename></revtmd:filename>
+                            <revtmd:filename>tx467yq7855_pm.mov</revtmd:filename>
                             <revtmd:organization>
                                 <revtmd:organization_main>
-                                    <revtmd:name></revtmd:name>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:role_note></revtmd:role_note>
+                                    <revtmd:name>Stanford University Libraries</revtmd:name>
+                                    <revtmd:role>Preservation Reformatter</revtmd:role>
+                                    <revtmd:role_note>Digitized at the Stanford Media Preservation Lab http://lib.stanford.edu/stanford-media-preservation-lab/</revtmd:role_note>
                                 </revtmd:organization_main>
                             </revtmd:organization>                            
-                            <revtmd:mimetype></revtmd:mimetype>                        
+                            <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>                        
                             <revtmd:captureHistory>
-                                <revtmd:digitizationDate></revtmd:digitizationDate>
-                                <revtmd:digitizationEngineer></revtmd:digitizationEngineer>
-                                <revtmd:preparationActions></revtmd:preparationActions>
+                                <revtmd:digitizationDate>2012-11-20</revtmd:digitizationDate>
+                                <revtmd:digitizationEngineer>Michael Angeletti</revtmd:digitizationEngineer>
+                                <revtmd:preparationActions>Tape exercise</revtmd:preparationActions>
+                                <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
                                 <!-- Use preparationActions to document any actions taken on the source material, such as cleaning, baking, rehousing. Field is repeatable. -->
-                                <revtmd:preparationActions></revtmd:preparationActions>
                                 <revtmd:codingProcessHistory>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:description></revtmd:description>
-                                    <revtmd:manufacturer></revtmd:manufacturer>
-                                    <revtmd:modelName></revtmd:modelName>
-                                    <revtmd:signal></revtmd:signal>
-                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:role>Playback</revtmd:role>
+                                    <revtmd:description>VTR used to playback original tape</revtmd:description>
+                                    <revtmd:manufacturer>Sony</revtmd:manufacturer>
+                                    <revtmd:modelName>BVU-950</revtmd:modelName>
+                                    <revtmd:signal>composite</revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version></revtmd:version>                              
                                     <revtmd:settings></revtmd:settings>                          
                                 </revtmd:codingProcessHistory>
                                 <revtmd:codingProcessHistory>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:description></revtmd:description>
-                                    <revtmd:manufacturer></revtmd:manufacturer>
-                                    <revtmd:modelName></revtmd:modelName>
-                                    <revtmd:signal></revtmd:signal>
-                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:role>TBC</revtmd:role>
+                                    <revtmd:description>Time-base correction</revtmd:description>
+                                    <revtmd:manufacturer>DPS</revtmd:manufacturer>
+                                    <revtmd:modelName>290</revtmd:modelName>
+                                    <revtmd:signal>composite</revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version></revtmd:version>                              
                                     <revtmd:settings></revtmd:settings>                          
                                 </revtmd:codingProcessHistory>
                                 <revtmd:codingProcessHistory>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:description></revtmd:description>
-                                    <revtmd:manufacturer></revtmd:manufacturer>
-                                    <revtmd:modelName></revtmd:modelName>
-                                    <revtmd:signal></revtmd:signal>
-                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:role>Signal conversion</revtmd:role>
+                                    <revtmd:description>Converts VTR signal output to SDI</revtmd:description>
+                                    <revtmd:manufacturer>Blackmagic Design</revtmd:manufacturer>
+                                    <revtmd:modelName>Analog-to-SDI miniconverter</revtmd:modelName>
+                                    <revtmd:signal>SDI</revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version></revtmd:version>                              
-                                    <revtmd:settings></revtmd:settings>                          
+                                    <revtmd:settings></revtmd:settings>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>Host Computer</revtmd:role>
+                                    <revtmd:description>Provides computing environment</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>MacPro</revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>5.1</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>Host Computer OS</revtmd:role>
+                                    <revtmd:description>Provides computing environment operating system</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>Snow Leapard/revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>10.6.8</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
+                                </revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>File encoder</revtmd:role>
+                                    <revtmd:description>Writes the signal to bitstream</revtmd:description>
+                                    <revtmd:manufacturer>AJA</revtmd:manufacturer>
+                                    <revtmd:modelName>IO Express</revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version></revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
                                 </revtmd:codingProcessHistory>
                             </revtmd:captureHistory>
                         </revtmd:object>                     
