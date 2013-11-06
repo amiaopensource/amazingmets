@@ -63,35 +63,63 @@
                                 <revtmd:preparationActions>Tape exercise</revtmd:preparationActions>
                                 <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
                                 <!-- Use preparationActions to document any actions taken on the source material, such as cleaning, baking, rehousing. Field is repeatable. -->
-                                <revtmd:codingProcessHistory>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:description></revtmd:description>
-                                    <revtmd:manufacturer></revtmd:manufacturer>
-                                    <revtmd:modelName></revtmd:modelName>
-                                    <revtmd:signal></revtmd:signal>
-                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                </revtmd:codingProcessHistory><revtmd:codingProcessHistory>
+                                    <revtmd:role>Playback</revtmd:role>
+                                    <revtmd:description>VTR used to playback original tape</revtmd:description>
+                                    <revtmd:manufacturer>Sony</revtmd:manufacturer>
+                                    <revtmd:modelName>BVU-950</revtmd:modelName>
+                                    <revtmd:signal>composite</revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version></revtmd:version>                              
                                     <revtmd:settings></revtmd:settings>                          
                                 </revtmd:codingProcessHistory>
                                 <revtmd:codingProcessHistory>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:description></revtmd:description>
-                                    <revtmd:manufacturer></revtmd:manufacturer>
-                                    <revtmd:modelName></revtmd:modelName>
-                                    <revtmd:signal></revtmd:signal>
-                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:role>TBC</revtmd:role>
+                                    <revtmd:description>Time-base correction</revtmd:description>
+                                    <revtmd:manufacturer>DPS</revtmd:manufacturer>
+                                    <revtmd:modelName>290</revtmd:modelName>
+                                    <revtmd:signal>composite</revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version></revtmd:version>                              
                                     <revtmd:settings></revtmd:settings>                          
                                 </revtmd:codingProcessHistory>
                                 <revtmd:codingProcessHistory>
-                                    <revtmd:role></revtmd:role>
-                                    <revtmd:description></revtmd:description>
-                                    <revtmd:manufacturer></revtmd:manufacturer>
-                                    <revtmd:modelName></revtmd:modelName>
-                                    <revtmd:signal></revtmd:signal>
-                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                    <revtmd:role>Signal conversion</revtmd:role>
+                                    <revtmd:description>Converts VTR signal output to SDI</revtmd:description>
+                                    <revtmd:manufacturer>Blackmagic Design</revtmd:manufacturer>
+                                    <revtmd:modelName>Analog-to-SDI miniconverter</revtmd:modelName>
+                                    <revtmd:signal>SDI</revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version></revtmd:version>                              
-                                    <revtmd:settings></revtmd:settings>                          
+                                    <revtmd:settings></revtmd:settings>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>Host Computer</revtmd:role>
+                                    <revtmd:description>Provides computing environment</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>MacPro</revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>5.1</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>Host Computer OS</revtmd:role>
+                                    <revtmd:description>Provides computing environment operating system</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>Snow Leapard/revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>10.6.8</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
+                                </revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>File encoder</revtmd:role>
+                                    <revtmd:description>Writes the signal to bitstream</revtmd:description>
+                                    <revtmd:manufacturer>AJA</revtmd:manufacturer>
+                                    <revtmd:modelName>IO Express</revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version></revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
                                 </revtmd:codingProcessHistory>
                             </revtmd:captureHistory>
                         </revtmd:object>                     
