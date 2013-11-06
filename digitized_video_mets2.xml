@@ -16,8 +16,8 @@
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="UTVIDEOSrc">
                 <mets:xmlData>
                     <src:UTVIDEOSrc>
-                        <src:id></src:id>
-                        <src:analog_digital_flag></src:analog_digital_flag>
+                        <src:id>sul</src:id>
+                        <src:analog_digital_flag>analog</src:analog_digital_flag>
                         <src:generation></src:generation>
                         <src:carrier_number></src:carrier_number>
                         <src:signal_format></src:signal_format>
