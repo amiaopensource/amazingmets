@@ -39,7 +39,6 @@
                         </premis:eventIdentifier>
                         <premis:eventType>Digital Reformatting</premis:eventType>
                         <premis:eventDateTime>2012-11-20</premis:eventDateTime>
-                        <premis:eventType>Digital Reformatting</premis:eventType>
                     </premis:event>                   
                 </mets:xmlData>
             </mets:mdWrap>
@@ -125,12 +124,63 @@
                                     <revtmd:version></revtmd:version>                              
                                     <revtmd:settings></revtmd:settings> 
                                 </revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>File editing</revtmd:role>
+                                    <revtmd:description>Add title slate, color bars and tones</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>Final Cut Pro</revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>X</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
+                                </revtmd:codingProcessHistory>
                             </revtmd:captureHistory>
                         </revtmd:object>    
                         <revtmd:object>
-                            <revtmd:filename></revtmd:filename>
-                            <revtmd:mimetype></revtmd:mimetype>
-                            <revtmd:use></revtmd:use>
+                            <revtmd:filename>tx467yq7855_sh.mov</revtmd:filename>
+                            <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>
+                            <revtmd:organization>
+                                <revtmd:organization_main>
+                                    <revtmd:name>Stanford University Libraries</revtmd:name>
+                                    <revtmd:role>Preservation Reformatter</revtmd:role>
+                                    <revtmd:role_note>Digitized at the Stanford Media Preservation Lab http://lib.stanford.edu/stanford-media-preservation-lab/</revtmd:role_note>
+                                </revtmd:organization_main>
+                            </revtmd:organization>
+                            <revtmd:use>Mezzanine</revtmd:use>
+                            <revtmd:captureHistory>
+                                <revtmd:digitizationDate>2012-11-20</revtmd:digitizationDate>
+                                <revtmd:digitizationEngineer>Michael Angeletti</revtmd:digitizationEngineer>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>Host Computer</revtmd:role>
+                                    <revtmd:description>Provides computing environment</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>MacPro</revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>5.1</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings>
+                                </revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>Host Computer OS</revtmd:role>
+                                    <revtmd:description>Provides computing environment operating system</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>Snow Leapard/revtmd:modelName></revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>10.6.8</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
+                                </revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
+                                    <revtmd:role>Derivative file creation</revtmd:role>
+                                    <revtmd:description>Produce derivative from preservation master</revtmd:description>
+                                    <revtmd:manufacturer>Apple</revtmd:manufacturer>
+                                    <revtmd:modelName>Compressor</revtmd:modelName>
+                                    <revtmd:signal></revtmd:signal>
+                                    <revtmd:serialNumber>ABC123</revtmd:serialNumber>
+                                    <revtmd:version>4</revtmd:version>                              
+                                    <revtmd:settings></revtmd:settings> 
+                                </revtmd:codingProcessHistory>
+                            </revtmd:captureHistory>
                         </revtmd:object>                        
                     </revtmd:objects>                  
                 </mets:xmlData>
