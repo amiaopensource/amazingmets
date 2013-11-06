@@ -5,7 +5,7 @@
     xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
     xmlns:src="http://www.lib.utexas.edu/schema/"
     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis.xsd 
-    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd 
+    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd  
     http://www.lib.utexas.edu/schema/ http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd">
     <mets:amdSec>
         <mets:techMD ID="techmd1">
@@ -16,11 +16,8 @@
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="UTVIDEOSrc">
                 <mets:xmlData>
                     <src:UTVIDEOSrc>
-<<<<<<< HEAD
                         <src:id>sul:tx467yq7855</src:id>
-=======
                         <src:id>sul</src:id>
->>>>>>> f1062d527e142a848133146d5171cb5b93636ff1
                         <src:analog_digital_flag>analog</src:analog_digital_flag>
                         <src:generation>original</src:generation>
                         <src:carrier_number>1</src:carrier_number>
@@ -29,8 +26,7 @@
                         <src:duration>01:02:16.837</src:duration>
                     </src:UTVIDEOSrc>                  
                 </mets:xmlData>
-            </mets:mdWrap>
-            
+            </mets:mdWrap>         
         </mets:sourceMD> 
         <mets:digiprovMD ID="digiprov1">
             <mets:mdWrap MDTYPE="PREMIS:EVENT">
@@ -41,13 +37,9 @@
                             <premis:eventIdentifierType>Event ID Type</premis:eventIdentifierType>
                             <premis:eventIdentifierValue>Event_001</premis:eventIdentifierValue>
                         </premis:eventIdentifier>
-<<<<<<< HEAD
-                        <premis:eventType></premis:eventType>
-                        <premis:eventDateTime>2012-11-20</premis:eventDateTime>
-=======
                         <premis:eventType>Digital Reformatting</premis:eventType>
-                        <premis:eventDateTime>2011-11-20</premis:eventDateTime>
->>>>>>> f1062d527e142a848133146d5171cb5b93636ff1
+                        <premis:eventDateTime>2012-11-20</premis:eventDateTime>
+                        <premis:eventType>Digital Reformatting</premis:eventType>
                     </premis:event>                   
                 </mets:xmlData>
             </mets:mdWrap>
@@ -65,7 +57,8 @@
                                     <revtmd:role_note>Digitized at the Stanford Media Preservation Lab http://lib.stanford.edu/stanford-media-preservation-lab/</revtmd:role_note>
                                 </revtmd:organization_main>
                             </revtmd:organization>                            
-                            <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>                        
+                            <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>  
+                            <revtmd:use>Preservation Master</revtmd:use>                            
                             <revtmd:captureHistory>
                                 <revtmd:digitizationDate>2012-11-20</revtmd:digitizationDate>
                                 <revtmd:digitizationEngineer>Michael Angeletti</revtmd:digitizationEngineer>
@@ -101,6 +94,7 @@
                                     <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version></revtmd:version>                              
                                     <revtmd:settings></revtmd:settings>
+                                </revtmd:codingProcessHistory>
                                 <revtmd:codingProcessHistory>
                                     <revtmd:role>Host Computer</revtmd:role>
                                     <revtmd:description>Provides computing environment</revtmd:description>
@@ -109,12 +103,13 @@
                                     <revtmd:signal></revtmd:signal>
                                     <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version>5.1</revtmd:version>                              
-                                    <revtmd:settings></revtmd:settings> 
+                                    <revtmd:settings></revtmd:settings>
+                                </revtmd:codingProcessHistory>
                                 <revtmd:codingProcessHistory>
                                     <revtmd:role>Host Computer OS</revtmd:role>
                                     <revtmd:description>Provides computing environment operating system</revtmd:description>
                                     <revtmd:manufacturer>Apple</revtmd:manufacturer>
-                                    <revtmd:modelName>Snow Leapard/revtmd:modelName>
+                                    <revtmd:modelName>Snow Leapard/revtmd:modelName></revtmd:modelName>
                                     <revtmd:signal></revtmd:signal>
                                     <revtmd:serialNumber>ABC123</revtmd:serialNumber>
                                     <revtmd:version>10.6.8</revtmd:version>                              
@@ -131,7 +126,12 @@
                                     <revtmd:settings></revtmd:settings> 
                                 </revtmd:codingProcessHistory>
                             </revtmd:captureHistory>
-                        </revtmd:object>                     
+                        </revtmd:object>    
+                        <revtmd:object>
+                            <revtmd:filename></revtmd:filename>
+                            <revtmd:mimetype></revtmd:mimetype>
+                            <revtmd:use></revtmd:use>
+                        </revtmd:object>                        
                     </revtmd:objects>                  
                 </mets:xmlData>
             </mets:mdWrap>
