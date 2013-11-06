@@ -11,8 +11,8 @@
     <mets:amdSec>
         <mets:techMD ID="techmd1">
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="MEDIAINFO">      
-                <!-- mediainfo XML goes here. Generate mediainfo using full output (-f), language=raw and output=XML. -->                
-<<<<<<< HEAD
+                <!-- mediainfo XML goes here. Generate mediainfo using full output (-f), language=raw and output=XML. -->
+                <mets:xmlData>              
                 <Mediainfo version="0.7.60">
                     <File>
                         <track type="General">
@@ -298,9 +298,7 @@
                         </track>
                     </File>
                 </Mediainfo> 
-=======
-                
->>>>>>> 69d9a3161cf795986bb39efa45281f23b2465a15
+                </mets:xmlData>  
             </mets:mdWrap>
         </mets:techMD>
         <mets:sourceMD ID="src1">
