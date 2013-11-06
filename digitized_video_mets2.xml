@@ -63,7 +63,7 @@
                                 <revtmd:preparationActions>Tape exercise</revtmd:preparationActions>
                                 <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
                                 <!-- Use preparationActions to document any actions taken on the source material, such as cleaning, baking, rehousing. Field is repeatable. -->
-                                </revtmd:codingProcessHistory><revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory>
                                     <revtmd:role>Playback</revtmd:role>
                                     <revtmd:description>VTR used to playback original tape</revtmd:description>
                                     <revtmd:manufacturer>Sony</revtmd:manufacturer>
