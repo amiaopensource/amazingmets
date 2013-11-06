@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mets:mets xmlns:mets="http://www.loc.gov/METS/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:premis="info:lc/xmlns/premis-v2"
     xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
-    xmlns:src="http://www.lib.utexas.edu/schema/"
+    xmlns:src="http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd"
     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis.xsd 
     http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd  
     http://www.lib.utexas.edu/schema/ http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd">
     <mets:amdSec>
         <mets:techMD ID="techmd1">
-            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="MEDIAINFO">            
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="MEDIAINFO">      
+                <!-- mediainfo XML goes here. Generate mediainfo using full output (-f), language=raw and output=XML. -->                
             </mets:mdWrap>
         </mets:techMD>
         <mets:sourceMD ID="src1">
@@ -39,7 +41,6 @@
                         </premis:eventIdentifier>
                         <premis:eventType>Digital Reformatting</premis:eventType>
                         <premis:eventDateTime>2012-11-20</premis:eventDateTime>
-                        <premis:eventType>Digital Reformatting</premis:eventType>
                     </premis:event>                   
                 </mets:xmlData>
             </mets:mdWrap>
@@ -138,23 +139,21 @@
         </mets:digiprovMD>
     </mets:amdSec>
     <mets:fileSec>
-        <mets:fileGrp>
-            <mets:fileGrp>
-                <mets:file ID=""></mets:file>
-            </mets:fileGrp>
+        <mets:fileGrp USE="PRESERVATION MASTER">
+                <mets:file ID="file_01">
+                    <mets:FLocat LOCTYPE="URL" xlink:href="#file_01"/>
+                </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp USE="MEZZANINE">
+            <mets:file ID="file_02">
+                <mets:FLocat LOCTYPE="URL" xlink:href="#file_02"/>
+            </mets:file>
         </mets:fileGrp>
     </mets:fileSec>
     <mets:structMap>
         <mets:div>
-            <mets:fptr>
-                <mets:par>
-                    <mets:area FILEID=""/>
-                </mets:par>
-            </mets:fptr>
-            <mets:div></mets:div>
+            <mets:fptr FILEID="file_01"/>
+            <mets:fptr FILEID="file_02"/>
         </mets:div>
     </mets:structMap>
-    <mets:structLink>
-        <mets:smLink xmlns:ns5="http://www.w3.org/1999/xlink" ns5:to="" xmlns:ns6="http://www.w3.org/1999/xlink" ns6:from=""/>
-    </mets:structLink>
 </mets:mets>
