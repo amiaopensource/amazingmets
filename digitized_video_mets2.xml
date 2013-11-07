@@ -372,6 +372,7 @@
                             </revtmd:organization>
                             <!-- Use for reformatting vendor, whether internal or external -->
                             <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>
+                            <revtmd:checksum algorithm="md5" dateTime="2012-11-20T09:30+05:00">9724d0844392766f3f6dc363bfd7af4e</revtmd:checksum>
                             <revtmd:use>Preservation Master</revtmd:use>
                             <revtmd:captureHistory>
                                 <revtmd:digitizationDate>2012-11-20</revtmd:digitizationDate>
@@ -462,6 +463,8 @@
                         <revtmd:object>
                             <revtmd:filename>tx467yq7855_sh.mov</revtmd:filename>
                             <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>
+                            <revtmd:checksum algorithm="md5" dateTime="2012-11-20T09:30+05:00">ce006dbab1deeebd8c491f17a4c45288</revtmd:checksum>
+                            <!-- optional to use checksum for mezzanine or proxy files -->
                             <revtmd:organization>
                                 <revtmd:organization_main>
                                     <revtmd:name>Stanford University Libraries</revtmd:name>
@@ -512,6 +515,7 @@
                                 </revtmd:codingProcessHistory>
                             </revtmd:captureHistory>
                         </revtmd:object>
+                        <!-- object container could be repeated for additional objects, such as proxies or edits. -->
                     </revtmd:objects>
                 </mets:xmlData>
             </mets:mdWrap>
