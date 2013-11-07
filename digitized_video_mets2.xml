@@ -4,7 +4,7 @@
     xmlns:premis="info:lc/xmlns/premis-v2" xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
     xmlns:src="http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd"
     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis.xsd 
-    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd  
+    http://nwtssite.nwts.nara/schema/ schema/hreVTMD_hackDayEdits_amia2013.xsd 
     http://www.lib.utexas.edu/schema/ http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd">
     <mets:metsHdr>
         <mets:agent ROLE="CREATOR">
