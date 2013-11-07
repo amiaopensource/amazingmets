@@ -4,7 +4,7 @@
     xmlns:premis="info:lc/xmlns/premis-v2" xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
     xmlns:src="http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd"
     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis.xsd 
-    http://nwtssite.nwts.nara/schema/ schema/hreVTMD_hackDayEdits_amia2013.xsd 
+    http://nwtssite.nwts.nara/schema/ schema/reVTMD_hackDayEdits_amia2013.xsd 
     http://www.lib.utexas.edu/schema/ http://www.lib.utexas.edu/schema/UTVIDEOSrc.xsd">
     <!-- This is a sample METS instance documenting a media reformatting process for purposes of preservation. It draws on existing schema to specifically capture information about the physical source item (in this case, a U-matic analog video tape), 
     Produced for AMIA-DLF Hack Day 2013 by: Hannah Frost, Stanford University Libraries; Kara Van Malssen, AVPreserve; and JungYun Oh, University of Michigan Libraries. -->
@@ -388,7 +388,7 @@
                                 <revtmd:preparationActions>Tape-exercising</revtmd:preparationActions>
                                 <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
                                 <!-- Use codingProcessHistory to document each step involved in the signal reformatting process. Field is repeatable. -->
-                                <revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory sequence="1">
                                     <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
                                 
                                     <revtmd:role>Playback</revtmd:role>
@@ -401,7 +401,7 @@
                                     <revtmd:version/>
                                     <revtmd:settings/>
                                 </revtmd:codingProcessHistory>
-                                <revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory sequence="2">
                                     <revtmd:role>TBC</revtmd:role>
                                     <revtmd:description>Time-base correction</revtmd:description>
                                     <revtmd:manufacturer>DPS</revtmd:manufacturer>
@@ -411,7 +411,7 @@
                                     <revtmd:version/>
                                     <revtmd:settings/>
                                 </revtmd:codingProcessHistory>
-                                <revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory sequence="3">
                                     <revtmd:role>Signal conversion</revtmd:role>
                                     <revtmd:description>Converts VTR signal output to
                                         SDI</revtmd:description>
@@ -422,7 +422,7 @@
                                     <revtmd:version/>
                                     <revtmd:settings/>
                                 </revtmd:codingProcessHistory>
-                                <revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory sequence="4">
                                     <revtmd:role>Host Computer</revtmd:role>
                                     <revtmd:description>Provides computing
                                         environment</revtmd:description>
@@ -433,7 +433,7 @@
                                     <revtmd:version>5.1</revtmd:version>
                                     <revtmd:settings/>
                                 </revtmd:codingProcessHistory>
-                                <revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory sequence="5">
                                     <revtmd:role>Host Computer OS</revtmd:role>
                                     <revtmd:description>Provides computing environment operating
                                         system</revtmd:description>
@@ -445,7 +445,7 @@
                                     <revtmd:version>10.6.8</revtmd:version>
                                     <revtmd:settings/>
                                 </revtmd:codingProcessHistory>
-                                <revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory sequence="6">
                                     <revtmd:role>File encoder</revtmd:role>
                                     <revtmd:description>Writes the signal to
                                         bitstream</revtmd:description>
@@ -456,7 +456,7 @@
                                     <revtmd:version/>
                                     <revtmd:settings/>
                                 </revtmd:codingProcessHistory>
-                                <revtmd:codingProcessHistory>
+                                <revtmd:codingProcessHistory sequence="7">
                                     <revtmd:role>File editing</revtmd:role>
                                     <revtmd:description>Add title slate, color bars and
                                         tones</revtmd:description>
