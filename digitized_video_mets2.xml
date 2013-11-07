@@ -373,7 +373,7 @@
                                         http://lib.stanford.edu/stanford-media-preservation-lab/</revtmd:role_note>
                                 </revtmd:organization_main>                              
                             </revtmd:organization>
-                            <!-- Use for reformatting vendor, whether internal or external -->
+                            <!-- Use for reformatting agent, whether internal or external (vendor) -->
                             <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>
                             <revtmd:checksum algorithm="md5" dateTime="2012-11-20T09:30-05:00">9724d0844392766f3f6dc363bfd7af4e</revtmd:checksum>
                             <!-- Checksum as generated immediately after the digitization process. -->
@@ -382,10 +382,13 @@
                                 <revtmd:digitizationDate>2012-11-20</revtmd:digitizationDate>
                                 <revtmd:digitizationEngineer>Michael
                                     Angeletti</revtmd:digitizationEngineer>
-                                <revtmd:preparationActions>Tape exercise</revtmd:preparationActions>
+                                    <!-- Use preparationActions to document any actions taken on the source material. Possible values include: inspection, tape-exercising, cleaning, baking, repair, rehousing. Field is repeatable. -->
+                                <revtmd:preparationActions>Tape-exercising</revtmd:preparationActions>
                                 <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
-                                <!-- Use preparationActions to document any actions taken on the source material, such as cleaning, baking, rehousing. Field is repeatable. -->
+                                <!-- Use codingProcessHistory to document each step involved in the signal reformatting process. Field is repeatable. -->
                                 <revtmd:codingProcessHistory>
+                                    <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
+                                
                                     <revtmd:role>Playback</revtmd:role>
                                     <revtmd:description>VTR used to playback original
                                         tape</revtmd:description>
