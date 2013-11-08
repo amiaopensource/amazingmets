@@ -12,7 +12,7 @@
         <mets:agent ROLE="CREATOR">
             <mets:name>Stanford University Libraries</mets:name>
         </mets:agent>
-        <!-- use agent to describe the custodian. -->
+        <!-- use agent to describe the creator of the METS document itself. -->
     </mets:metsHdr>
     <mets:amdSec>
         <mets:techMD ID="techmd1">
@@ -598,6 +598,7 @@
         </mets:digiprovMD>
         <mets:digiprovMD ID="digiprov2">
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="REVTMD">
+            <!-- reVTMD is a schema maintained by NARA. Use to describe the process of creating digital files from the analog source.-->
                 <mets:xmlData>
                     <revtmd:objects>
                         <revtmd:object>
@@ -635,7 +636,11 @@
                                 <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
                                 <!-- Use preparationActions to document any actions taken on the source material. Possible values include: inspection, tape-exercising, cleaning, dehydration, repair, rehousing. Field is repeatable. -->                               
                                 <revtmd:codingProcessHistory sequence="1">
+<<<<<<< HEAD
                                     <!-- Use codingProcessHistory to document each step involved in the signal reformatting process. Field is repeatable. -->                                                                 
+=======
+                                    <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
+>>>>>>> 9659a3aca9c8efb2f3b725a9c3f6496792e2416c
                                     <revtmd:role>Playback</revtmd:role>
                                     <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
                                     <revtmd:description>VTR used to playback original
