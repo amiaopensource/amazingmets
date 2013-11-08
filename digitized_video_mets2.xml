@@ -315,6 +315,251 @@
                 </mets:xmlData>
             </mets:mdWrap>
         </mets:techMD>
+        <mets:techMD ID="techmd2">
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="MEDIAINFO">
+                <mets:xmlData>
+                    <Mediainfo version="0.7.62">
+                        <File>
+                            <track type="General">
+                                <Count>284</Count>
+                                <StreamCount>1</StreamCount>
+                                <StreamKind>General</StreamKind>
+                                <StreamKind_String>General</StreamKind_String>
+                                <StreamKindID>0</StreamKindID>
+                                <VideoCount>1</VideoCount>
+                                <AudioCount>1</AudioCount>
+                                <Video_Format_List>H264</Video_Format_List>
+                                <Video_Format_WithHint_List>H264</Video_Format_WithHint_List>
+                                <Video_Codec_List>AVC</Video_Codec_List>
+                                <Video_Language_List>en</Video_Language_List>
+                                <Audio_Format_List>AAC</Audio_Format_List>
+                                <Audio_Format_WithHint_List>AAC</Audio_Format_WithHint_List>
+                                <Audio_Codec_List>AAC LC</Audio_Codec_List>
+                                <Audio_Language_List>en</Audio_Language_List>
+                                <CompleteName>tx467yq7855_sh.mov</CompleteName>
+                                <FileName>tx467yq7855_sh</FileName>
+                                <FileExtension>mov</FileExtension>
+                                <Format>MPEG-4</Format>
+                                <Format_String>MPEG-4</Format_String>
+                                <Format_Extensions>mp4 m4v m4a m4b m4p 3gpp 3gp 3gpp2 3g2 k3g jpm jpx mqv ismv isma f4v</Format_Extensions>
+                                <Format_Commercial>MPEG-4</Format_Commercial>
+                                <Format_Profile>QuickTime</Format_Profile>
+                                <InternetMediaType>video/mp4</InternetMediaType>
+                                <CodecID>qt  </CodecID>
+                                <CodecID_Url>http://www.apple.com/quicktime/download/standalone.html</CodecID_Url>
+                                <Codec>MPEG-4</Codec>
+                                <Codec_String>MPEG-4</Codec_String>
+                                <Codec_Extensions>mp4 m4v m4a m4b m4p 3gpp 3gp 3gpp2 3g2 k3g jpm jpx mqv ismv isma f4v</Codec_Extensions>
+                                <FileSize>174593652</FileSize>
+                                <FileSize_String>167 MiB</FileSize_String>
+                                <FileSize_String1>167 MiB</FileSize_String1>
+                                <FileSize_String2>167 MiB</FileSize_String2>
+                                <FileSize_String3>167 MiB</FileSize_String3>
+                                <FileSize_String4>166.5 MiB</FileSize_String4>
+                                <Duration>3580367</Duration>
+                                <Duration_String>59mn 40s</Duration_String>
+                                <Duration_String1>59mn 40s 367ms</Duration_String1>
+                                <Duration_String2>59mn 40s</Duration_String2>
+                                <Duration_String3>00:59:40.367</Duration_String3>
+                                <OverallBitRate_Mode>VBR</OverallBitRate_Mode>
+                                <OverallBitRate_Mode_String>VBR</OverallBitRate_Mode_String>
+                                <OverallBitRate>390113</OverallBitRate>
+                                <OverallBitRate_String>390 Kbps</OverallBitRate_String>
+                                <StreamSize>2733497</StreamSize>
+                                <StreamSize_String>2.61 MiB (2%)</StreamSize_String>
+                                <StreamSize_String1>3 MiB</StreamSize_String1>
+                                <StreamSize_String2>2.6 MiB</StreamSize_String2>
+                                <StreamSize_String3>2.61 MiB</StreamSize_String3>
+                                <StreamSize_String4>2.607 MiB</StreamSize_String4>
+                                <StreamSize_String5>2.61 MiB (2%)</StreamSize_String5>
+                                <StreamSize_Proportion>0.01566</StreamSize_Proportion>
+                                <HeaderSize>2676650</HeaderSize>
+                                <DataSize>171917002</DataSize>
+                                <FooterSize>0</FooterSize>
+                                <IsStreamable>Yes</IsStreamable>
+                                <Encoded_Date>UTC 2013-05-07 08:02:08</Encoded_Date>
+                                <Tagged_Date>UTC 2013-05-07 08:02:14</Tagged_Date>
+                                <File_Modified_Date>UTC 2013-11-08 21:40:17</File_Modified_Date>
+                                <File_Modified_Date_Local>2013-11-08 16:40:17</File_Modified_Date_Local>
+                                <Encoded_Library>Apple QuickTime</Encoded_Library>
+                                <Encoded_Library_String>Apple QuickTime</Encoded_Library_String>
+                                <Encoded_Library_Name>Apple QuickTime</Encoded_Library_Name>
+                            </track>
+                            
+                            <track type="Video">
+                                <Count>266</Count>
+                                <StreamCount>1</StreamCount>
+                                <StreamKind>Video</StreamKind>
+                                <StreamKind_String>Video</StreamKind_String>
+                                <StreamKindID>0</StreamKindID>
+                                <StreamOrder>0</StreamOrder>
+                                <ID>1</ID>
+                                <ID_String>1</ID_String>
+                                <Format>H264</Format>
+                                <Format_Commercial>H264</Format_Commercial>
+                                <CodecID>H264</CodecID>
+                                <Codec>H264</Codec>
+                                <Codec_String>AVC</Codec_String>
+                                <Codec_Family>AVC</Codec_Family>
+                                <Codec_Info>Intel H.264</Codec_Info>
+                                <Codec_CC>H264</Codec_CC>
+                                <Duration>3580367</Duration>
+                                <Duration_String>59mn 40s</Duration_String>
+                                <Duration_String1>59mn 40s 367ms</Duration_String1>
+                                <Duration_String2>59mn 40s</Duration_String2>
+                                <Duration_String3>00:59:40.367</Duration_String3>
+                                <Source_Duration>3581300</Source_Duration>
+                                <Source_Duration_String>59mn 41s</Source_Duration_String>
+                                <Source_Duration_String1>59mn 41s 300ms</Source_Duration_String1>
+                                <Source_Duration_String2>59mn 41s</Source_Duration_String2>
+                                <Source_Duration_String3>00:59:41.300</Source_Duration_String3>
+                                <BitRate>256005</BitRate>
+                                <BitRate_String>256 Kbps</BitRate_String>
+                                <Width>854</Width>
+                                <Width_String>854 pixel2</Width_String>
+                                <Height>480</Height>
+                                <Height_String>480 pixel3</Height_String>
+                                <PixelAspectRatio>1.000</PixelAspectRatio>
+                                <DisplayAspectRatio>1.779</DisplayAspectRatio>
+                                <DisplayAspectRatio_String>16:9</DisplayAspectRatio_String>
+                                <Rotation>0.000</Rotation>
+                                <FrameRate_Mode>VFR</FrameRate_Mode>
+                                <FrameRate_Mode_String>VFR</FrameRate_Mode_String>
+                                <FrameRate>30.000</FrameRate>
+                                <FrameRate_String>30.000 fps3</FrameRate_String>
+                                <FrameRate_Minimum>29.412</FrameRate_Minimum>
+                                <FrameRate_Minimum_String>29.412 fps3</FrameRate_Minimum_String>
+                                <FrameRate_Maximum>30.303</FrameRate_Maximum>
+                                <FrameRate_Maximum_String>30.303 fps3</FrameRate_Maximum_String>
+                                <FrameCount>107411</FrameCount>
+                                <Source_FrameCount>107439</Source_FrameCount>
+                                <Bits_Pixel_Frame_>0.021</Bits_Pixel_Frame_>
+                                <Delay>-933</Delay>
+                                <Delay_String>-933ms</Delay_String>
+                                <Delay_String1>-933ms</Delay_String1>
+                                <Delay_String2>-933ms</Delay_String2>
+                                <Delay_String3>-00:00:00.933</Delay_String3>
+                                <Delay_Source>Container</Delay_Source>
+                                <Delay_Source_String>Container</Delay_Source_String>
+                                <StreamSize>114574111</StreamSize>
+                                <StreamSize_String>109 MiB (66%)</StreamSize_String>
+                                <StreamSize_String1>109 MiB</StreamSize_String1>
+                                <StreamSize_String2>109 MiB</StreamSize_String2>
+                                <StreamSize_String3>109 MiB</StreamSize_String3>
+                                <StreamSize_String4>109.3 MiB</StreamSize_String4>
+                                <StreamSize_String5>109 MiB (66%)</StreamSize_String5>
+                                <StreamSize_Proportion>0.65623</StreamSize_Proportion>
+                                <Source_StreamSize>114630934</Source_StreamSize>
+                                <Source_StreamSize_String>109 MiB (66%)</Source_StreamSize_String>
+                                <Source_StreamSize_String1>109 MiB</Source_StreamSize_String1>
+                                <Source_StreamSize_String2>109 MiB</Source_StreamSize_String2>
+                                <Source_StreamSize_String3>109 MiB</Source_StreamSize_String3>
+                                <Source_StreamSize_String4>109.3 MiB</Source_StreamSize_String4>
+                                <Source_StreamSize_String5>109 MiB (66%)</Source_StreamSize_String5>
+                                <Source_StreamSize_Proportion>0.65656</Source_StreamSize_Proportion>
+                                <Language>en</Language>
+                                <Language_String>en</Language_String>
+                                <Language_String1>en</Language_String1>
+                                <Language_String2>en</Language_String2>
+                                <Language_String3>eng</Language_String3>
+                                <Language_String4>en</Language_String4>
+                                <Encoded_Date>UTC 2013-04-22 18:14:18</Encoded_Date>
+                                <Tagged_Date>UTC 2013-05-07 08:02:14</Tagged_Date>
+                                <colour_primaries>BT.601 NTSC</colour_primaries>
+                                <transfer_characteristics>BT.709</transfer_characteristics>
+                                <matrix_coefficients>BT.601</matrix_coefficients>
+                            </track>
+                            
+                            <track type="Audio">
+                                <Count>220</Count>
+                                <StreamCount>1</StreamCount>
+                                <StreamKind>Audio</StreamKind>
+                                <StreamKind_String>Audio</StreamKind_String>
+                                <StreamKindID>0</StreamKindID>
+                                <StreamOrder>1</StreamOrder>
+                                <ID>2</ID>
+                                <ID_String>2</ID_String>
+                                <Format>AAC</Format>
+                                <Format_Info>Advanced Audio Codec</Format_Info>
+                                <Format_Commercial>AAC</Format_Commercial>
+                                <Format_Profile>LC</Format_Profile>
+                                <CodecID>40</CodecID>
+                                <Codec>AAC LC</Codec>
+                                <Codec_String>AAC LC</Codec_String>
+                                <Codec_Family>AAC</Codec_Family>
+                                <Codec_CC>40</Codec_CC>
+                                <Duration>3580367</Duration>
+                                <Duration_String>59mn 40s</Duration_String>
+                                <Duration_String1>59mn 40s 367ms</Duration_String1>
+                                <Duration_String2>59mn 40s</Duration_String2>
+                                <Duration_String3>00:59:40.367</Duration_String3>
+                                <Source_Duration>3580378</Source_Duration>
+                                <Source_Duration_String>59mn 40s</Source_Duration_String>
+                                <Source_Duration_String1>59mn 40s 378ms</Source_Duration_String1>
+                                <Source_Duration_String2>59mn 40s</Source_Duration_String2>
+                                <Source_Duration_String3>00:59:40.378</Source_Duration_String3>
+                                <BitRate_Mode>VBR</BitRate_Mode>
+                                <BitRate_Mode_String>VBR</BitRate_Mode_String>
+                                <BitRate>128000</BitRate>
+                                <BitRate_String>128 Kbps</BitRate_String>
+                                <Channel_s_>2</Channel_s_>
+                                <Channel_s__String>2 channel2</Channel_s__String>
+                                <ChannelPositions>Front: L R</ChannelPositions>
+                                <ChannelPositions_String2>2/0/0</ChannelPositions_String2>
+                                <SamplingRate>44100</SamplingRate>
+                                <SamplingRate_String>44.1 KHz</SamplingRate_String>
+                                <SamplingCount>157894185</SamplingCount>
+                                <FrameCount>154194</FrameCount>
+                                <Source_FrameCount>154194</Source_FrameCount>
+                                <Compression_Mode>Lossy</Compression_Mode>
+                                <Compression_Mode_String>Lossy</Compression_Mode_String>
+                                <Delay>-4</Delay>
+                                <Delay_String>-4ms</Delay_String>
+                                <Delay_String1>-4ms</Delay_String1>
+                                <Delay_String2>-4ms</Delay_String2>
+                                <Delay_String3>-00:00:00.004</Delay_String3>
+                                <Delay_Source>Container</Delay_Source>
+                                <Delay_Source_String>Container</Delay_Source_String>
+                                <Video_Delay>929</Video_Delay>
+                                <Video_Delay_String>929ms</Video_Delay_String>
+                                <Video_Delay_String1>929ms</Video_Delay_String1>
+                                <Video_Delay_String2>929ms</Video_Delay_String2>
+                                <Video_Delay_String3>00:00:00.929</Video_Delay_String3>
+                                <Video0_Delay>929</Video0_Delay>
+                                <Video0_Delay_String>929ms</Video0_Delay_String>
+                                <Video0_Delay_String1>929ms</Video0_Delay_String1>
+                                <Video0_Delay_String2>929ms</Video0_Delay_String2>
+                                <Video0_Delay_String3>00:00:00.929</Video0_Delay_String3>
+                                <StreamSize>57286044</StreamSize>
+                                <StreamSize_String>54.6 MiB (33%)</StreamSize_String>
+                                <StreamSize_String1>55 MiB</StreamSize_String1>
+                                <StreamSize_String2>55 MiB</StreamSize_String2>
+                                <StreamSize_String3>54.6 MiB</StreamSize_String3>
+                                <StreamSize_String4>54.63 MiB</StreamSize_String4>
+                                <StreamSize_String5>54.6 MiB (33%)</StreamSize_String5>
+                                <StreamSize_Proportion>0.32811</StreamSize_Proportion>
+                                <Source_StreamSize>57286044</Source_StreamSize>
+                                <Source_StreamSize_String>54.6 MiB (33%)</Source_StreamSize_String>
+                                <Source_StreamSize_String1>55 MiB</Source_StreamSize_String1>
+                                <Source_StreamSize_String2>55 MiB</Source_StreamSize_String2>
+                                <Source_StreamSize_String3>54.6 MiB</Source_StreamSize_String3>
+                                <Source_StreamSize_String4>54.63 MiB</Source_StreamSize_String4>
+                                <Source_StreamSize_String5>54.6 MiB (33%)</Source_StreamSize_String5>
+                                <Source_StreamSize_Proportion>0.32811</Source_StreamSize_Proportion>
+                                <Language>en</Language>
+                                <Language_String>en</Language_String>
+                                <Language_String1>en</Language_String1>
+                                <Language_String2>en</Language_String2>
+                                <Language_String3>eng</Language_String3>
+                                <Language_String4>en</Language_String4>
+                                <Encoded_Date>UTC 2013-04-22 18:14:18</Encoded_Date>
+                                <Tagged_Date>UTC 2013-05-07 08:02:14</Tagged_Date>
+                            </track>                         
+                        </File>
+                    </Mediainfo>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
         <mets:sourceMD ID="src1">
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="UTVIDEOSrc">
                 <!-- University of Texas source video schema. Used to describe source object -->
@@ -323,6 +568,7 @@
                         <src:id>sul:tx467yq7855</src:id>
                         <src:analog_digital_flag>analog</src:analog_digital_flag>
                         <src:generation>original</src:generation>
+                        <!-- generation Should a use a local controlled vocabulary. -->
                         <src:carrier_number>1</src:carrier_number>
                         <src:carrier_data>
                             <src:carrier_brand>Eastman Professional</src:carrier_brand>
@@ -355,6 +601,7 @@
                 <mets:xmlData>
                     <revtmd:objects>
                         <revtmd:object>
+                            <!-- This is process history for the preservation master -->
                             <revtmd:filename>tx467yq7855_pm.mov</revtmd:filename>
                             <revtmd:organization>
                                 <revtmd:organization_main>
@@ -380,18 +627,17 @@
                             <revtmd:checksum algorithm="md5" dateTime="2012-11-20T09:30-05:00">9724d0844392766f3f6dc363bfd7af4e</revtmd:checksum>
                             <!-- Checksum as generated immediately after the digitization process. -->
                             <revtmd:use>Preservation Master</revtmd:use>
+                            <!-- Recommended to declare use role using Preservation Master, Mezzanine, and Proxy or equivalent. -->
                             <revtmd:captureHistory>
                                 <revtmd:digitizationDate>2012-11-20</revtmd:digitizationDate>
-                                <revtmd:digitizationEngineer>Michael
-                                    Angeletti</revtmd:digitizationEngineer>
-                                    <!-- Use preparationActions to document any actions taken on the source material. Possible values include: inspection, tape-exercising, cleaning, baking, repair, rehousing. Field is repeatable. -->
+                                <revtmd:digitizationEngineer>Michael Angeletti</revtmd:digitizationEngineer>                              
                                 <revtmd:preparationActions>Tape-exercising</revtmd:preparationActions>
                                 <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
-                                <!-- Use codingProcessHistory to document each step involved in the signal reformatting process. Field is repeatable. -->
+                                <!-- Use preparationActions to document any actions taken on the source material. Possible values include: inspection, tape-exercising, cleaning, dehydration, repair, rehousing. Field is repeatable. -->                               
                                 <revtmd:codingProcessHistory sequence="1">
-                                    <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
-                                
+                                    <!-- Use codingProcessHistory to document each step involved in the signal reformatting process. Field is repeatable. -->                                                                 
                                     <revtmd:role>Playback</revtmd:role>
+                                    <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
                                     <revtmd:description>VTR used to playback original
                                         tape</revtmd:description>
                                     <revtmd:manufacturer>Sony</revtmd:manufacturer>
@@ -413,8 +659,7 @@
                                 </revtmd:codingProcessHistory>
                                 <revtmd:codingProcessHistory sequence="3">
                                     <revtmd:role>Signal conversion</revtmd:role>
-                                    <revtmd:description>Converts VTR signal output to
-                                        SDI</revtmd:description>
+                                    <revtmd:description>Converts VTR signal output to SDI</revtmd:description>
                                     <revtmd:manufacturer>Blackmagic Design</revtmd:manufacturer>
                                     <revtmd:modelName>Analog-to-SDI miniconverter</revtmd:modelName>
                                     <revtmd:signal>SDI</revtmd:signal>
@@ -470,6 +715,7 @@
                             </revtmd:captureHistory>
                         </revtmd:object>
                         <revtmd:object>
+                            <!-- This process history for the mezzanine object -->
                             <revtmd:filename>tx467yq7855_sh.mov</revtmd:filename>
                             <revtmd:mimetype>application/x-quicktime</revtmd:mimetype>
                             <revtmd:checksum algorithm="md5" dateTime="2012-11-20T10:30+05:00">ce006dbab1deeebd8c491f17a4c45288</revtmd:checksum>
@@ -490,8 +736,7 @@
                                     Angeletti</revtmd:digitizationEngineer>
                                 <revtmd:codingProcessHistory>
                                     <revtmd:role>Host Computer</revtmd:role>
-                                    <revtmd:description>Provides computing
-                                        environment</revtmd:description>
+                                    <revtmd:description>Provides computing environment</revtmd:description>
                                     <revtmd:manufacturer>Apple</revtmd:manufacturer>
                                     <revtmd:modelName>MacPro</revtmd:modelName>
                                     <revtmd:signal/>
@@ -532,12 +777,12 @@
     </mets:amdSec>
     <mets:fileSec>
         <mets:fileGrp USE="PRESERVATION MASTER">
-            <mets:file ID="file_01">
+            <mets:file ID="file_01" ADMID="techmd1">
                 <mets:FLocat LOCTYPE="URL" xlink:href="tx467yq7855_pm.mov"/>
             </mets:file>
         </mets:fileGrp>
         <mets:fileGrp USE="MEZZANINE">
-            <mets:file ID="file_02">
+            <mets:file ID="file_02" ADMID="techmd2">
                 <mets:FLocat LOCTYPE="URL" xlink:href="tx467yq7855_sh.mov"/>
             </mets:file>
         </mets:fileGrp>
