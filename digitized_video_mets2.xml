@@ -384,8 +384,7 @@
                                 <Encoded_Library>Apple QuickTime</Encoded_Library>
                                 <Encoded_Library_String>Apple QuickTime</Encoded_Library_String>
                                 <Encoded_Library_Name>Apple QuickTime</Encoded_Library_Name>
-                            </track>
-                            
+                            </track>                           
                             <track type="Video">
                                 <Count>266</Count>
                                 <StreamCount>1</StreamCount>
@@ -468,8 +467,7 @@
                                 <colour_primaries>BT.601 NTSC</colour_primaries>
                                 <transfer_characteristics>BT.709</transfer_characteristics>
                                 <matrix_coefficients>BT.601</matrix_coefficients>
-                            </track>
-                            
+                            </track>                           
                             <track type="Audio">
                                 <Count>220</Count>
                                 <StreamCount>1</StreamCount>
@@ -636,11 +634,7 @@
                                 <revtmd:preparationActions>Cleaning</revtmd:preparationActions>
                                 <!-- Use preparationActions to document any actions taken on the source material. Possible values include: inspection, tape-exercising, cleaning, dehydration, repair, rehousing. Field is repeatable. -->                               
                                 <revtmd:codingProcessHistory sequence="1">
-<<<<<<< HEAD
                                     <!-- Use codingProcessHistory to document each step involved in the signal reformatting process. Field is repeatable. -->                                                                 
-=======
-                                    <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
->>>>>>> 9659a3aca9c8efb2f3b725a9c3f6496792e2416c
                                     <revtmd:role>Playback</revtmd:role>
                                     <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
                                     <revtmd:description>VTR used to playback original
