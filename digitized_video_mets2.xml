@@ -12,7 +12,7 @@
         <mets:agent ROLE="CREATOR">
             <mets:name>Stanford University Libraries</mets:name>
         </mets:agent>
-        <!-- use agent to describe the custodian. -->
+        <!-- use agent to describe the creator of the METS document itself. -->
     </mets:metsHdr>
     <mets:amdSec>
         <mets:techMD ID="techmd1">
@@ -352,6 +352,7 @@
         </mets:digiprovMD>
         <mets:digiprovMD ID="digiprov2">
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="REVTMD">
+            <!-- reVTMD is a schema maintained by NARA. Use to describe the process of creating digital files from the analog source.-->
                 <mets:xmlData>
                     <revtmd:objects>
                         <revtmd:object>
@@ -390,7 +391,6 @@
                                 <!-- Use codingProcessHistory to document each step involved in the signal reformatting process. Field is repeatable. -->
                                 <revtmd:codingProcessHistory sequence="1">
                                     <!-- Use role to document the job of each device or system component involved in the signal reformatting process. Possible values include: playback, TBC, signal conversion, host computer, host computer OS, file encoder, file editor, derivative file creation. Field is repeatable. -->
-                                
                                     <revtmd:role>Playback</revtmd:role>
                                     <revtmd:description>VTR used to playback original
                                         tape</revtmd:description>
