@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema targetNamespace="http://nwtssite.nwts.nara/schema/"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://nwtssite.nwts.nara/schema/"
-    elementFormDefault="qualified">
-    <!-- Modified version of the XSD maintained by the US National Archives and Records Administration maintained at http://www.archives.gov/preservation/products/reVTMD.xsd
-         Changes to original:
-            - Added @sequence to codingProcessHistory  -->
+<xsd:schema xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.loc.gov/METS/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xsd:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.loc.gov/standards/xlink/xlink.xsd"/>
+    <xsd:element name="mets">
+   <!-- This is a modified METS schema documenting a media item reformatted for purposes of preservation. It draws on existing schema to specifically capture information about the physical source item (in this case, a U-matic analog video tape), preparation actions, the digitization event, the process history (including the capture of a preservation master file and a mezzanine file), file checksum values, and other technical metadata.
+    Produced on AMIA-DLF Hack Day 2013 by: Hannah Frost, Stanford University Libraries; JungYun Oh, University of Michigan Libraries; and Kara Van Malssen, AVPreserve. -->
+        <xsd:annotation>
+            <xsd:documentation xml:lang="en">METS: Metadata Encoding and Transmission Standard.
+                METS is intended to provide a standardized XML format for transmission of complex digital library objects between systems.  As such, it can be seen as filling a role similar to that defined for the Submission Information Package (SIP), Archival Information Package (AIP) and Dissemination Information Package (DIP) in the Reference Model for an Open Archival Information System. The root element &lt;mets&gt; establishes the container for the information being stored and/or transmitted by the standard.
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
     <xsd:element name="reVTMD" type="nara.reVTMD.type">
         <xsd:annotation>
             <xsd:documentation>reVTMD: NARA AudioVisual Metadata Extension Schema. A reVTMD
